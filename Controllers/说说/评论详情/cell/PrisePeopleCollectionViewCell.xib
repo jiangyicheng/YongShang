@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PrisePeopleCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="86" height="77"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="86" height="77"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uwd-Qr-fPI">
+                        <rect key="frame" x="0.0" y="0.0" width="86" height="77"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="uwd-Qr-fPI" secondAttribute="bottom" id="RAv-QM-IGx"/>
+                <constraint firstAttribute="trailing" secondItem="uwd-Qr-fPI" secondAttribute="trailing" id="ann-hk-YxB"/>
+                <constraint firstItem="uwd-Qr-fPI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ep5-yl-zVi"/>
+                <constraint firstItem="uwd-Qr-fPI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xzY-zP-TTN"/>
+            </constraints>
+            <size key="customSize" width="86" height="77"/>
+            <connections>
+                <outlet property="personImage" destination="uwd-Qr-fPI" id="6G8-sU-Nto"/>
+            </connections>
+            <point key="canvasLocation" x="505" y="432.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
